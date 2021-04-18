@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title></ion-title>
+    <ion-item>
+    <label>status</label>
+    <ion-toggle color="danger">status</ion-toggle></ion-item>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button  (click)="new()">NEW</ion-button>
+  <ion-button  (click)="INPRG()">IN PROGRESS</ion-button>
+  <ion-button  (click)="CMPLTE()">COMPLETED</ion-button>
+</ion-content><!----
+{
+  path: 'home',
+  loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
+},
+{
+  path: 'mainpage',
+  loadChildren: () => import('./mainpage/mainpage.module').then( m => m.MainpagePageModule)
+},
+{
+  path: 'history',
+  loadChildren: () => import('./history/history.module').then( m => m.HistoryPageModule)
+},
+{
+  path: 'products',
+  loadChildren: () => import('./products/products.module').then( m => m.ProductsPageModule)
+},
+{
+  path: 'status',
+  loadChildren: () => import('./status/status.module').then( m => m.StatusPageModule)
+},
+{
+  path: 'profile',
+  loadChildren: () => import('./profile/profile.module').then( m => m.ProfilePageModule)
+}-->

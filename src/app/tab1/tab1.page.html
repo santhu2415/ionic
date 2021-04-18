@@ -1,17 +1,32 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Welcome To The Store
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <form>
+   <label>STORE NUMBER</label>
+    <ion-item>
+     <ion-input  placeholder="Enter store number" type="number"  required></ion-input>
+    </ion-item>
+    <label>MOBILE NUMBER</label>
+    <ion-item>
+      <ion-input placeholder="Enter your registered mobile number" type="number" required></ion-input>
+    </ion-item><br><label>STORE SECRET</label>
+    <ion-item>
+      <ion-input placeholder="Enter your store secret" type="text" required></ion-input>
+    </ion-item><br>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
-</ion-content>
+     <ion-button  color="light" (click)="login()"> Login</ion-button>
+     <br>
+     
+     
+    
+ 
+  </form>
+ </ion-content>
+ 
+
